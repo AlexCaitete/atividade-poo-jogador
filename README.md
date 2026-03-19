@@ -1,39 +1,24 @@
-# Atividade Prática: Orientação a Objetos - Classe Jogador 🎮
+# ☕ Fundamentos de Orientação a Objetos em Java
 
-Este repositório contém a resolução de um exercício prático de **Programação Orientada a Objetos (POO)** desenvolvido em Java. O objetivo principal da atividade foi modelar e implementar o comportamento básico de um jogador, controlando sua pontuação e sua situação no jogo.
+Este repositório contém meus primeiros projetos práticos em Java, desenvolvidos para consolidar os conceitos fundamentais da Programação Orientada a Objetos (POO). 
 
-## 📝 Descrição do Exercício
+## 🎯 O que eu aprendi e apliquei aqui:
+Durante a criação deste projeto (como os modelos de `Automovel`, `Jogador` e `Lampada`), eu coloquei em prática:
+* **Classes e Objetos:** Criação de moldes (classes) e instanciação de objetos reais na memória usando a palavra `new`.
+* **Atributos e Métodos:** Definição de características (estado) e comportamentos (ações) para cada objeto.
+* **Encapsulamento:** Uso de modificadores de acesso (`private` e `public`) para proteger variáveis de alterações indevidas (como impedir uma velocidade negativa).
+* **Estruturas de Controle:** Uso avançado de laços de repetição (`for`) e estruturas condicionais (`if/else` e Operador Ternário).
+* **Princípio DRY (Don't Repeat Yourself):** Criação de métodos auxiliares para evitar repetição de código.
 
-O sistema é composto por duas classes principais e simula as ações de um jogador durante uma partida, respeitando regras específicas de pontuação e eliminação.
-
-### Regras de Negócio Implementadas:
-* **Atributos do Jogador:** Cada jogador possui um Nome (texto), uma Pontuação (inteiro) e uma Situação (lógico, onde `true` = Jogando e `false` = Eliminado).
-* **Ganhar Pontos:** O jogador só pode receber novos pontos se a sua situação atual for "Jogando". Não há limite máximo de pontuação.
-* **Perder Pontos:** O jogador perde pontos com base em um valor informado. A pontuação mínima é `0`. Se, ao perder pontos, a pontuação chegar a zero ou menos, o status do jogador é automaticamente alterado para "Eliminado" (`false`).
-
-## 🛠️ Tecnologias e Conceitos Utilizados
-
-* **Linguagem:** Java
+## 🛠️ Tecnologias Utilizadas
+* **Java** (JDK)
 * **IDE:** Eclipse
-* **Conceitos de POO:**
-  * Criação de Classes e Objetos (Instanciação).
-  * Atributos de diferentes tipos (`String`, `int`, `boolean`).
-  * Criação de Métodos com passagem de parâmetros.
-  * Estruturas de controle de fluxo (`if/else`) aplicadas às regras de negócio.
 
-## 📂 Estrutura do Código
-
-O projeto está dividido em dois arquivos dentro do pacote `atv04`:
-
-1. `Jogador.java`: É a classe "molde". Contém os atributos do jogador e a lógica dos métodos `ganharPontos()` e `perderPontos()`.
-2. `Appjogador.java`: É a classe principal (`main`). Responsável por instanciar o jogador "O maior", atribuir os valores iniciais (5 pontos, situação: jogando) e testar os métodos exibindo os resultados no console passo a passo.
-
-## ▶️ Como executar
-
-1. Clone este repositório em sua máquina local.
-2. Abra o projeto em sua IDE Java de preferência (recomendado: Eclipse).
-3. Navegue até o pacote `atv04` e execute o arquivo `Appjogador.java`.
-4. Acompanhe as saídas e as mudanças de status do jogador pelo console da IDE.
+## 🚀 Como testar este código
+1. Clone este repositório no seu computador: `git clone https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git`
+2. Importe a pasta do projeto para dentro do seu Eclipse.
+3. Abra as classes principais (que contêm o método `main`, como `Appautomovel.java` ou `AppLampada.java`).
+4. Clique em *Run* (ou pressione `Ctrl + F11`) para ver os objetos ganhando vida no console!
 
 ---
-*Atividade desenvolvida para fins de estudo e prática de fundamentos de Java e POO.*
+*Desenvolvido com muita dedicação (e alguns litros de café) durante meus estudos de Java.*
